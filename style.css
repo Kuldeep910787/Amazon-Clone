@@ -1,0 +1,119 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #deddd9;
+}
+#mynavbar{
+    height: 75px;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+}
+#search{
+    height: 30px;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 350px;
+    height: 400px;
+}
+#card{
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+
+
+                /scrollbar first/
+
+::-webkit-scrollbar{
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;            
+}
+#scroll{
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    margin-top: 100px;
+    overflow: scroll;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 10px #ccc;
+}
+#midalscroll{
+    width: 3000px;
+    height: 250px;
+    display: flex;
+}
+#deepscroll{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+}
+#deepscroll img{
+    width: 100%;
+    height: 100%;
+}
+
+
+                /scrollbar second/
+#scroll2{
+    width: 100%;
+    height: 380px;
+    margin-top: 30px;
+    overflow: scroll;
+    background-color: #f5d06c;
+    overflow-y: hidden;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+#midalscroll2{
+    width: 8000px;
+    height: 300px;
+    display: flex;
+}
+#deepscroll2{
+    width: 380px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px black;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+#deepscroll2 img{
+    width: 100%;
+    height: 65%;
+    border-radius: 10px;
+}
+#upload_box{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 30px;
+    padding: 20px;
+}
+#upload_main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#upload_box button{
+    margin-top: 20px;
+}
